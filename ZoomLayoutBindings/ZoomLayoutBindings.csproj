@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
@@ -7,20 +7,24 @@
     <ProjectGuid>{9DE9A17B-749F-4BD2-A62C-6B9D8CB20861}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>ZoomLayoutBindings</RootNamespace>
-    <AssemblyName>ZoomLayoutBindings</AssemblyName>
+    <RootNamespace>LRP.Xamarin.ZoomLayout</RootNamespace>
+    <AssemblyName>LRP.Xamarin.ZoomLayout</AssemblyName>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>net.lerondpoint.xamarin.zoomlayout</PackageId>
-    <PackageVersion>1.4.0</PackageVersion>
+    <PackageId>LRP.Xamarin.ZoomLayout</PackageId>
+    <PackageVersion>1.5.0-pre</PackageVersion>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/LRP-sgravel/Xamarin.ZoomLayout</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/natario1/ZoomLayout/master/art/logo_800.png</PackageIconUrl>
+    <Copyright>2019 LeRondPoint</Copyright>
     <Authors>Sylvain Gravel</Authors>
-    <Owners>Sylvain  Gravel</Owners>
+    <Owners>Sylvain Gravel</Owners>
     <Summary>Bindings for the excellent ZoomLayout by natario1</Summary>
     <PackageTags>xamarin, android</PackageTags>
-    <Title>Xamarin.ZoomLayout</Title>
+    <Title>LRP.Xamarin.ZoomLayout</Title>
     <Description>Bindings for the excellent ZoomLayout by natario1</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
